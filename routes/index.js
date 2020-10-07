@@ -20,6 +20,6 @@ router.get('/genre/:genre', MainController.searchByGenre)
 router.get('/tag/:tag', MainController.tag)
 router.get('/blog-category/:category', MainController.blogcategory)
 router.get('/blog-category/:category/:page', MainController.blogCategoryByPage)
-router.get('/daftar-genre', MainController.daftarGenre)
+router.get('/daftar-genre/', MainController.daftarGenre)
 
 module.exports = router
